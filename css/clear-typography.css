@@ -46,7 +46,7 @@
 body {
 	font-family: ClearSans, sans-serif;
 	text-align:left;
-	font-size: calc(3mm + 1.5vw); /*basically, makes sure that the text scale to always be less than 90 characters, while being readable on small screens */
+	font-size: 4mm;
 	line-height: 1.5em; 
 	color: #666; 
 	font-weight: 400;
