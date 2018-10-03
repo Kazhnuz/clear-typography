@@ -144,6 +144,45 @@ hr {
 	margin: 1.6em;
 }
 
+/* ------------------ QUOTE ------------------- */
+
+blockquote {
+  border-top: 0px;
+	border-left: 2px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-color: rgba(1,1,1,0.15);
+	border-style: solid;
+	border-radius:3px;
+	margin: 0.5em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	padding: 0em;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+	max-width:100%
+}
+
+pre {
+  border-top: 0px;
+	border-left: 2px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-color: rgba(1,1,1,0.20);
+	border-style: solid;
+	border-radius:3px;
+	margin: 0px;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	padding: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+	background-color:#EEE;
+	max-width:100%
+}
+
 /* ------------------ SPECIAL STYLING ------------------- */
 
 .time {
