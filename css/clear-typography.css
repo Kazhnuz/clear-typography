@@ -56,6 +56,10 @@ body {
 	font-weight: 400;
 }
 
+.night-mode {
+  color:#BBB;
+}
+
 strong {
 	font-weight: 600;
 }
@@ -151,7 +155,7 @@ blockquote {
 	border-left: 2px;
 	border-right: 0px;
 	border-bottom: 0px;
-	border-color: rgba(1,1,1,0.15);
+	border-color: rgba(1, 1, 1, 0.15);
 	border-style: solid;
 	border-radius:3px;
 	margin: 0.5em;
@@ -162,6 +166,10 @@ blockquote {
 	padding-right: 1em;
 	
 	max-width:100%
+}
+
+.night-mode blockquote {
+  border-color: rgba(255, 255, 255, 0.15)
 }
 
 pre {
@@ -181,6 +189,11 @@ pre {
 	
 	background-color:#EEE;
 	max-width:100%
+}
+
+.night-mode pre {
+  background-color:#222;
+  border-color:rgba(255,255,255,0.20)
 }
 
 /* ------------------ SPECIAL STYLING ------------------- */
