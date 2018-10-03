@@ -148,9 +148,9 @@ hr {
 	border-left:0px;
 	border-right:0px;
 	border-bottom:1px;
-	border-color:#666;
-	border-style:dashed;
-	margin:2em;
+	border-color:rgba(1,1,1,0.15);
+	border-style:solid;
+	margin:1.6em;
 
 }
 
