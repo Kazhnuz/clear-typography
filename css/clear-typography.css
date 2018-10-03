@@ -1,3 +1,5 @@
+/* ------------------ FONT LOADING ------------------- */
+
 @font-face {
 	font-family: 'ClearSans';
 	src: url('../fonts/ClearSans-Light.eot');
@@ -43,12 +45,14 @@
 	font-style: italic;
 }
 
+/* ------------------ GLOBAL STYLE ------------------- */
+
 body {
 	font-family: ClearSans, sans-serif;
-	text-align:left;
+	text-align: left;
 	font-size: 4mm;
 	line-height: 1.5em; 
-	color: #444; 
+	color: #444;
 	font-weight: 400;
 }
 
@@ -61,107 +65,90 @@ em {
 }
 
 a {
-color:#2484c1;
-text-decoration:none;
+  color:#2484c1;
+  text-decoration:none;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+::selection { background: #2484c1; color: #fff; }
+::-moz-selection { background: #2484c1; color: #fff; }
 
-	text-align:left;
+/* ------------------ TITLES ------------------- */
+
+h1, h2, h3, h4, h5, h6, h7 {
+	text-align: left;
 	font-size: 1em; 
 	line-height: 1.5em; 
 	padding:0px;
 	margin:0px;
 	font-weight:400;
-
 }
 
 h1 {
-
 	text-align: left;
 	font-size: 2em; 
 	line-height: 1.5em; 
 	padding:0.2em;
 	margin-bottom:1em;
 	font-weight:600;
-
 }
 
 h2 {
-
 	text-align: left;
 	font-size: 1.8em; 
 	line-height: 1.5em; 
 	padding:0.1em;
-	/*margin-bottom:0.5em;*/
 	font-weight:600;
-
 }
 
 h3 {
-
-	text-align:left;
+	text-align: left;
 	font-size: 1.6em; 
 	line-height: 1.5em; 
 	padding:0.1em;
-	/*margin-bottom:0.5em;*/
 	font-weight:600;
-
 }
 
 h4 {
-
-	text-align:left;
+	text-align: left;
 	font-size: 1.4em; 
 	line-height: 1.5em; 
 	padding:0.1em;
-	/*margin-bottom:0.5em;*/
 	font-weight:600;
-
 }
 
 h5 {
-
-	text-align:left;
+	text-align: left;
 	font-size: 1.4em; 
 	line-height: 1.5em; 
 	padding:0.1em;
-	/*margin-bottom:0.5em;*/
 	font-weight:400;
-
 }
 
 h6 {
-
-	text-align:left;
+	text-align: left;
 	font-size: 1.2em; 
 	line-height: 1.5em; 
 	padding:0.1em;
-	/*margin-bottom:0.5em;*/
 	font-weight:400;
-
 }
+
+/* ------------------ HR ------------------- */
 
 hr {
-
-	border-top:0px;
-	border-left:0px;
-	border-right:0px;
-	border-bottom:1px;
-	border-color:rgba(1,1,1,0.15);
-	border-style:solid;
-	margin:1.6em;
-
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-color: rgba(1,1,1,0.15);
+	border-style: solid;
+	margin: 1.6em;
 }
+
+/* ------------------ SPECIAL STYLING ------------------- */
 
 .time {
-
-	font-style:italic;
-	text-align:right;
-	width:100%;
-	display:block;
-
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	display: block;
 }
-
-::selection { background: #2484c1; color: #fff; }
-::-moz-selection { background: #2484c1; color: #fff; }
