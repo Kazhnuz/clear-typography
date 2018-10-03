@@ -112,7 +112,7 @@ h2 {
 
 h3 {
 
-	text-align:justify;
+	text-align:left;
 	font-size: 1.8em; 
 	line-height: 1.5em; 
 	padding:0.1em;
@@ -129,7 +129,7 @@ h3 {
 
 h4 {
 
-	text-align:justify;
+	text-align:left;
 	font-size: 1.5em; 
 	line-height: 1.5em; 
 	padding:0.1em;
@@ -146,7 +146,7 @@ h4 {
 
 h5 {
 
-	text-align:justify;
+	text-align:left;
 	font-size: 1.3em; 
 	line-height: 1.5em; 
 	padding:0.1em;
@@ -163,7 +163,7 @@ h5 {
 
 h6 {
 
-	text-align:justify;
+	text-align:left;
 	font-size: 1.3em; 
 	line-height: 1.5em; 
 	padding:0.1em;
