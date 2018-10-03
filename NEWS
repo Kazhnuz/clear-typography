@@ -1,0 +1,23 @@
+# NEWS
+
+## Clear Typography 1.0
+
+Changes since 0.1 :
+
+- Better typographic support :
+
+  - Don't justify text
+  
+  - Better contrast with text
+  
+  - Remove underlining and centering in title
+  
+- Tweaks in titles size
+
+- Nicer styling for hr
+
+- More markup support : pre, mark and blockquote
+
+- Wrapper system to handle font size changes with responsive design
+
+- Night Mode support
