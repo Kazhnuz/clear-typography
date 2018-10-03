@@ -76,6 +76,28 @@ a {
 ::selection { background: #2484c1; color: #fff; }
 ::-moz-selection { background: #2484c1; color: #fff; }
 
+/* ------------------ WRAPPERS ------------------- */
+
+.text-wrapper {
+  font-size: calc(3mm + 1.1vw);
+  margin: auto;
+  line-height: 1.5em; 
+}
+
+@media screen and (min-width: 800px) {
+  .text-wrapper {
+    font-size: calc(3mm + 8.8px);;
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-wrapper .size-1200 {
+    font-size: calc(3mm + 13.1px);;
+    max-width: 800px;
+  }
+}
+
 /* ------------------ TITLES ------------------- */
 
 h1, h2, h3, h4, h5, h6, h7 {
