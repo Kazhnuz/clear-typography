@@ -96,6 +96,17 @@ ul {
   }
 }
 
+ol {
+  @include paragraph();
+  ol {
+    padding-bottom:0;
+  }
+  li {
+    margin-left:1.5em;
+  }
+}
+
+
 ::selection { background: #2484c1; color: #fff; }
 ::-moz-selection { background: #2484c1; color: #fff; }
 

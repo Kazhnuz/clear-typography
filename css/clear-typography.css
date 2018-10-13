@@ -72,6 +72,15 @@ ul {
   ul li {
     margin-left: 1.5em; }
 
+ol {
+  padding: 0;
+  padding-bottom: 1.5em;
+  margin: 0; }
+  ol ol {
+    padding-bottom: 0; }
+  ol li {
+    margin-left: 1.5em; }
+
 ::selection {
   background: #2484c1;
   color: #fff; }
