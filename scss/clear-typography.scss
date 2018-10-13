@@ -141,27 +141,27 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1 {
-  @include title(2em, 1.5em, 0em, 1em, 600);
+  @include title(2.3333333em, 1em, 0.333333em, 0.6em, 600);
 }
 
 h2 {
-  @include title(1.8em, 1.5em, 0em, 0em, 600);
+  @include title(2em, 1.5em, 0.333333em, 0.4em, 600);
 }
 
 h3 {
-  @include title(1.6em, 1.5em, 0em, 0em, 600);
+  @include title(1.5em, 1em, 0em, 1em, 600);
 }
 
 h4 {
-  @include title(1.4em, 1.5em, 0em, 0em, 600);
+  @include title(1.5em, 1em, 0em, 1em, 400);
 }
 
 h5 {
-  @include title(1.4em, 1.5em, 0em, 0em, 400);
+  @include title(1.333333em, 1em, 0.1em, 1.133333em, 400);
 }
 
 h6 {
-  @include title(1.2em, 1.5em, 0em, 0em, 400);
+  @include title(1.1em, 1.4em, 0.1em, 1.2em, 600);
 }
 
 /* ------------------ HR ------------------- */
