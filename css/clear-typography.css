@@ -171,7 +171,7 @@ hr {
 
 /* ------------------ QUOTE ------------------- */
 blockquote {
-  border-width: 0 0 0 0.15em;
+  border-width: 0 0 0 0.2em;
   border-style: solid;
   border-radius: 3px;
   margin: 0.5em 0.1em 0.5em 0.1em;
@@ -182,7 +182,7 @@ blockquote {
     border-color: rgba(255, 255, 255, 0.15); }
 
 pre {
-  border-width: 0 0 0 0.15em;
+  border-width: 0 0 0 0.2em;
   border-style: solid;
   border-radius: 3px;
   margin: 0.5em 0.1em 0.5em 0.1em;
