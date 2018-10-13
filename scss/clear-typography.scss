@@ -127,9 +127,7 @@ a {
 @mixin title($size, $height, $top, $bottom, $weight) {
 	font-size: $size; 
 	line-height: $height; 
-	padding:0;
-	margin-top: $top;
-	margin-bottom: $bottom;
+	padding: $top 0 $bottom 0;
 	font-weight: $weight;
 }
 
