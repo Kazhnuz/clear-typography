@@ -1,5 +1,15 @@
 # NEWS
 
+## Clear Tyopgraphy 1.1
+
+Changes since 1.0 :
+
+  - Stylesheet ported to SCSS
+  
+  - Debug class added to show line heights
+  
+  - Better typography : by making sure that lines always follow line heights
+
 ## Clear Typography 1.0
 
 Changes since 0.1 :
