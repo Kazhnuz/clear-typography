@@ -47,6 +47,12 @@
 
 /* ------------------ GLOBAL STYLE ------------------- */
 
+@mixin paragraph() {
+  padding:0;
+  padding-bottom:1.5em;
+  margin:0;
+}
+
 body {
 	font-family: ClearSans, sans-serif;
 	text-align: left;
@@ -71,6 +77,20 @@ em {
 a {
   color:#2484c1;
   text-decoration:none;
+}
+
+p {
+  @include paragraph();
+}
+
+ul {
+  @include paragraph();
+  ul {
+    padding-bottom:0;
+  }
+  li {
+    margin-left:1.5em;
+  }
 }
 
 ::selection { background: #2484c1; color: #fff; }
