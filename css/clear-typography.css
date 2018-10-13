@@ -1,259 +1,214 @@
 /* ------------------ FONT LOADING ------------------- */
+@font-face {
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans-Light.eot");
+  src: url("../fonts/ClearSans-Light.woff") format("woff"), url("../fonts/ClearSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
 
 @font-face {
-	font-family: 'ClearSans';
-	src: url('../fonts/ClearSans-Light.eot');
-	src: url('../fonts/ClearSans-Light.woff') format('woff'),
-	     url('../fonts/ClearSans-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans-Regular.eot");
+  src: url("../fonts/ClearSans-Regular.woff") format("woff"), url("../fonts/ClearSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 
 @font-face {
-	font-family: 'ClearSans';
-	src: url('../fonts/ClearSans-Regular.eot');
-	src: url('../fonts/ClearSans-Regular.woff') format('woff'),
-	     url('../fonts/ClearSans-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-}
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans-Italic.eot");
+  src: url("../fonts/ClearSans-Italic.woff") format("woff"), url("../fonts/ClearSans-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
 
 @font-face {
-	font-family: 'ClearSans';
-	src: url('../fonts/ClearSans-Italic.eot');
-	src: url('../fonts/ClearSans-Italic.woff') format('woff'),
-	     url('../fonts/ClearSans-Italic.ttf') format('truetype');
-	font-weight: 400;
-	font-style: italic;
-}
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans-Medium.eot");
+  src: url("../fonts/ClearSans-Medium.woff") format("woff"), url("../fonts/ClearSans-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
 
 @font-face {
-	font-family: 'ClearSans';
-	src: url('../fonts/ClearSans-Medium.eot');
-	src: url('../fonts/ClearSans-Medium.woff') format('woff'),
-	     url('../fonts/ClearSans-Medium.ttf') format('truetype');
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'ClearSans';
-	src: url('../fonts/ClearSans-MediumItalic.eot');
-	src: url('../fonts/ClearSans-MediumItalic.woff') format('woff'),
-	     url('../fonts/ClearSans-MediumItalic.ttf') format('truetype');
-	font-weight: 600;
-	font-style: italic;
-}
+  font-family: 'ClearSans';
+  src: url("../fonts/ClearSans-MediumItalic.eot");
+  src: url("../fonts/ClearSans-MediumItalic.woff") format("woff"), url("../fonts/ClearSans-MediumItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
 
 /* ------------------ GLOBAL STYLE ------------------- */
-
 body {
-	font-family: ClearSans, sans-serif;
-	text-align: left;
-	font-size: 4mm;
-	line-height: 1.5em; 
-	color: #444;
-	font-weight: 400;
-}
+  font-family: ClearSans, sans-serif;
+  text-align: left;
+  font-size: 4mm;
+  line-height: 1.5em;
+  color: #444;
+  font-weight: 400; }
 
 .night-mode {
-  color:#BBB;
-}
+  color: #BBB; }
 
 strong {
-	font-weight: 600;
-}
+  font-weight: 600; }
 
 em {
-	font-style: italic;
-}
+  font-style: italic; }
 
 a {
-  color:#2484c1;
-  text-decoration:none;
-}
+  color: #2484c1;
+  text-decoration: none; }
 
-::selection { background: #2484c1; color: #fff; }
-::-moz-selection { background: #2484c1; color: #fff; }
+::selection {
+  background: #2484c1;
+  color: #fff; }
+
+::-moz-selection {
+  background: #2484c1;
+  color: #fff; }
 
 /* ------------------ WRAPPERS ------------------- */
-
 .text-wrapper {
   font-size: calc(2.5mm + 1vw);
   margin: auto;
-  line-height: 1.5em;
-}
+  line-height: 1.5em; }
 
 @media screen and (min-width: 640px) {
   .text-wrapper.size-640 {
     max-width: 640px;
-    font-size: calc(2.5mm + 6.4px);
-  }
-}
+    font-size: calc(2.5mm + 6.4px); } }
 
 @media screen and (min-width: 800px) {
   .text-wrapper.size-800 {
     font-size: calc(2.5mm + 8.0px);
-    max-width: 800px;
-  }
-}
+    max-width: 800px; } }
 
 @media screen and (min-width: 920px) {
   .text-wrapper.size-920 {
     font-size: calc(2.5mm + 9.2px);
-    max-width: 800px;
-  }
-}
+    max-width: 800px; } }
 
 @media screen and (min-width: 1200px) {
   .text-wrapper.size-1200 {
     font-size: calc(2.5mm + 12px);
-    max-width: 800px;
-  }
-}
+    max-width: 800px; } }
 
 /* ------------------ TITLES ------------------- */
-
 h1, h2, h3, h4, h5, h6, h7 {
-	text-align: left;
-	font-size: 1em; 
-	line-height: 1.5em; 
-	padding:0px;
-	margin:0px;
-	font-weight:400;
-}
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  font-weight: 400; }
 
 h1 {
-	text-align: left;
-	font-size: 2em; 
-	line-height: 1.5em; 
-	padding:0.2em;
-	margin-bottom:1em;
-	font-weight:600;
-}
+  text-align: left;
+  font-size: 2em;
+  line-height: 1.5em;
+  padding: 0;
+  margin-bottom: 1em;
+  font-weight: 600; }
 
 h2 {
-	text-align: left;
-	font-size: 1.8em; 
-	line-height: 1.5em; 
-	padding:0.1em;
-	font-weight:600;
-}
+  text-align: left;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  padding: 0;
+  font-weight: 600; }
 
 h3 {
-	text-align: left;
-	font-size: 1.6em; 
-	line-height: 1.5em; 
-	padding:0.1em;
-	font-weight:600;
-}
+  text-align: left;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  padding: 0;
+  font-weight: 600; }
 
 h4 {
-	text-align: left;
-	font-size: 1.4em; 
-	line-height: 1.5em; 
-	padding:0.1em;
-	font-weight:600;
-}
+  text-align: left;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  padding: 0;
+  font-weight: 600; }
 
 h5 {
-	text-align: left;
-	font-size: 1.4em; 
-	line-height: 1.5em; 
-	padding:0.1em;
-	font-weight:400;
-}
+  text-align: left;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  padding: 0;
+  font-weight: 400; }
 
 h6 {
-	text-align: left;
-	font-size: 1.2em; 
-	line-height: 1.5em; 
-	padding:0.1em;
-	font-weight:400;
-}
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0em;
+  font-weight: 400; }
 
 /* ------------------ HR ------------------- */
-
 hr {
-	border-top: 0px;
-	border-left: 0px;
-	border-right: 0px;
-	border-bottom: 1px;
-	border-color: rgba(1,1,1,0.15);
-	border-style: solid;
-	margin: 1.6em;
-}
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-color: rgba(1, 1, 1, 0.15);
+  border-style: solid;
+  margin: 1.6em; }
 
 /* ------------------ QUOTE ------------------- */
-
 blockquote {
   border-top: 0px;
-	border-left: 0.15em;
-	border-right: 0px;
-	border-bottom: 0px;
-	border-color: rgba(1, 1, 1, 0.15);
-	border-style: solid;
-	border-radius: 3px;
-	margin: 0.5em;
-	margin-left: 0.1em;
-	margin-right: 0.1em;
-	padding: 0em;
-	padding-left: 1em;
-	padding-right: 1em;
-	
-	max-width: 100%
-}
+  border-left: 0.15em;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-color: rgba(1, 1, 1, 0.15);
+  border-style: solid;
+  border-radius: 3px;
+  margin: 0.5em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  padding: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 100%; }
 
 .night-mode blockquote {
-  border-color: rgba(255, 255, 255, 0.15)
-}
+  border-color: rgba(255, 255, 255, 0.15); }
 
 pre {
   border-top: 0px;
-	border-left: 0.15em;
-	border-right: 0px;
-	border-bottom: 0px;
-	border-color: rgba(1,1,1,0.20);
-	border-style: solid;
-	border-radius: 3px;
-	margin: 0px;
-	margin-left: 0.1em;
-	margin-right: 0.1em;
-	padding: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-	
-	background-color:#EEE;
-	max-width:100%;
-	overflow-x: scroll;
-}
+  border-left: 0.15em;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-color: rgba(1, 1, 1, 0.2);
+  border-style: solid;
+  border-radius: 3px;
+  margin: 0px;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #EEE;
+  max-width: 100%;
+  overflow-x: scroll; }
 
 .night-mode pre {
-  background-color:#222;
-  border-color:rgba(255,255,255,0.20);
-}
+  background-color: #222;
+  border-color: rgba(255, 255, 255, 0.2); }
 
 /* ------------------ SPECIAL STYLING ------------------- */
-
 mark {
   border-radius: 0.2em;
-  padding:0;
-  padding-left:0.2em;
-  padding-right:0.2em;
-  
-  background-color:rgba(255,255,0,0.33);
-  color: inherit;
-}
+  padding: 0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  background-color: rgba(255, 255, 0, 0.33);
+  color: inherit; }
 
 .night-mode mark {
-  background-color:rgba(128,128,0,0.66);
-}
+  background-color: rgba(128, 128, 0, 0.66); }
 
 /* ------------------ SPECIAL STYLING ------------------- */
-
 .time {
-	font-style: italic;
-	text-align: right;
-	width: 100%;
-	display: block;
-}
+  font-style: italic;
+  text-align: right;
+  width: 100%;
+  display: block; }
