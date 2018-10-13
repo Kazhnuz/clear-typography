@@ -124,10 +124,11 @@ a {
 
 /* ------------------ TITLES ------------------- */
 
-@mixin title($size, $height, $bottom, $weight) {
+@mixin title($size, $height, $top, $bottom, $weight) {
 	font-size: $size; 
 	line-height: $height; 
 	padding:0;
+	margin-top: $top;
 	margin-bottom: $bottom;
 	font-weight: $weight;
 }
@@ -142,27 +143,27 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1 {
-  @include title(2em, 1.5em, 1em, 600);
+  @include title(2em, 1.5em, 0em, 1em, 600);
 }
 
 h2 {
-  @include title(1.8em, 1.5em, 0em, 600);
+  @include title(1.8em, 1.5em, 0em, 0em, 600);
 }
 
 h3 {
-  @include title(1.6em, 1.5em, 0em, 600);
+  @include title(1.6em, 1.5em, 0em, 0em, 600);
 }
 
 h4 {
-  @include title(1.4em, 1.5em, 0em, 600);
+  @include title(1.4em, 1.5em, 0em, 0em, 600);
 }
 
 h5 {
-  @include title(1.4em, 1.5em, 0em, 400);
+  @include title(1.4em, 1.5em, 0em, 0em, 400);
 }
 
 h6 {
-  @include title(1.2em, 1.5em, 0em, 400);
+  @include title(1.2em, 1.5em, 0em, 0em, 400);
 }
 
 /* ------------------ HR ------------------- */
