@@ -81,6 +81,9 @@ a {
 
 p {
   @include paragraph();
+  &:last-child {
+    padding-bottom:0;
+  }
 }
 
 ul {

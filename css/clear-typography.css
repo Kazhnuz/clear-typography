@@ -60,6 +60,8 @@ p {
   padding: 0;
   padding-bottom: 1.5em;
   margin: 0; }
+  p:last-child {
+    padding-bottom: 0; }
 
 ul {
   padding: 0;
