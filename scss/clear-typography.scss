@@ -130,23 +130,23 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1 {
-  @include title(2.3333333em, 1em, 0.333333em, 0.6em, 600);
+  @include title(2.3333333em, 1em, 0.333333em, 0.6em, 700);
 }
 
 h2 {
-  @include title(2em, 1.5em, 0.333333em, 0.4em, 600);
+  @include title(2em, 1.5em, 0.333333em, 0.4em, 700);
 }
 
 h3 {
-  @include title(1.5em, 1em, 0em, 1em, 600);
+  @include title(1.5em, 1em, 0em, 1em, 700);
 }
 
 h4 {
-  @include title(1.5em, 1em, 0em, 1em, 400);
+  @include title(1.5em, 1em, 0em, 1em, 600);
 }
 
 h5 {
-  @include title(1.333333em, 1em, 0.1em, 1.133333em, 400);
+  @include title(1.333333em, 1em, 0.1em, 1.133333em, 600);
 }
 
 h6 {
