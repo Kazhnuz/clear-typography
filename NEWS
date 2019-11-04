@@ -1,5 +1,15 @@
 # NEWS
 
+## Clear Typography 2.0
+
+  - Switch to using rem instead of em for sizing
+  
+  - Support vertical rythm
+  
+  - Auto-calculate lineheight for titles
+  
+  - Make modifiable all sizing
+
 ## Clear Typography 1.2
   
   - Switch to Open Sans, in order to solve problem with LightItalic font
