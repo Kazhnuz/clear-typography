@@ -8,7 +8,7 @@ $baseheight: 18px;
 @mixin paragraph() {
   padding:0;
   margin:0;
-  padding-bottom: $baseline * 1rem;
+  margin-bottom: $baseline * 1rem;
 }
 
 html {
@@ -43,14 +43,14 @@ a {
 p {
   @include paragraph();
   &:last-child {
-    padding-bottom:0;
+    margin-bottom:0;
   }
 }
 
 ul {
   @include paragraph();
   ul {
-    padding-bottom:0;
+    margin-bottom:0;
   }
   li {
     margin-left: $baseline * 1rem;
@@ -60,7 +60,7 @@ ul {
 ol {
   @include paragraph();
   ol {
-    padding-bottom:0;
+    margin-bottom:0;
   }
   li {
     margin-left: $baseline * 1rem;
@@ -121,8 +121,8 @@ ol {
 
 @mixin title($size, $height, $top, $bottom, $weight) {
 	font-size: $size; 
-	line-height: $height; 
-	padding: $top 0 $bottom 0;
+	line-height: $height;
+	margin-bottom: $baseline * 1rem;
 	font-weight: $weight;
 }
 
@@ -177,9 +177,9 @@ hr {
   border-width: 0 0 0 0.2em;
 	border-style: solid;
 	border-radius: 3px;
-	
-	margin: -0.75em -0.2em 0.75em -0.2em;
-	padding: 0.75em 1em 0.75em 1em;
+	margin:0;
+	margin-bottom: $baseline * 1rem;
+	padding: $baseline/2 * 1rem;
 	
 	max-width: 100%;
 }
@@ -197,7 +197,6 @@ pre {
   @include well();
 	border-color: rgba(1,1,1,0.20);
 	background-color:#EEE;
-	overflow-x: scroll;
 	
 	.night-mode & {
     background-color:#222;
