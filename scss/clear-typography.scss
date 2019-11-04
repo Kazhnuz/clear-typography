@@ -119,9 +119,10 @@ ol {
 
 /* ------------------ TITLES ------------------- */
 
-@mixin title($size, $height, $top, $bottom, $weight) {
-	font-size: $size; 
-	line-height: $height;
+@mixin title($size, $weight) {
+    $height: ceil($size / $baseline) * $baseline;
+	font-size: $size * 1rem;
+	line-height: $height * 1rem;
 	margin-bottom: $baseline * 1rem;
 	font-weight: $weight;
 }
@@ -136,27 +137,27 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1 {
-  @include title(2.3333333em, 1em, 0.333333em, 0.6em, 700);
+  @include title(2.3333333, 700);
 }
 
 h2 {
-  @include title(2em, 1.5em, 0.333333em, 0.4em, 700);
+  @include title(2, 700);
 }
 
 h3 {
-  @include title(1.5em, 1em, 0em, 1em, 700);
+  @include title(1.5, 700);
 }
 
 h4 {
-  @include title(1.5em, 1em, 0em, 1em, 600);
+  @include title(1.5, 600);
 }
 
 h5 {
-  @include title(1.333333em, 1em, 0.1em, 1.133333em, 600);
+  @include title(1.333333, 600);
 }
 
 h6 {
-  @include title(1.1em, 1.4em, 0.1em, 1.2em, 600);
+  @include title(1.1, 600);
 }
 
 /* ------------------ HR ------------------- */
