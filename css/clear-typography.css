@@ -70,10 +70,13 @@
   font-style: italic;
 }
 /* ------------------ GLOBAL STYLE ------------------- */
-body {
+html {
   font-family: OpenSans, sans-serif;
   text-align: left;
-  font-size: 4mm;
+  font-size: 18px;
+}
+
+body {
   line-height: 1.5rem;
   color: #444;
   font-weight: 400;

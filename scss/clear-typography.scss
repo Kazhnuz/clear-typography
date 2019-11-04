@@ -3,6 +3,7 @@
 /* ------------------ GLOBAL STYLE ------------------- */
 
 $baseline: 1.5;
+$baseheight: 18px;
 
 @mixin paragraph() {
   padding:0;
@@ -10,10 +11,13 @@ $baseline: 1.5;
   padding-bottom: $baseline * 1rem;
 }
 
-body {
+html {
 	font-family: OpenSans, sans-serif;
 	text-align: left;
-	font-size: 4mm;
+	font-size: $baseheight;
+}
+
+body {
 	line-height: $baseline * 1rem;
 	color: #444;
 	font-weight: 400;
