@@ -2,17 +2,19 @@
 
 /* ------------------ GLOBAL STYLE ------------------- */
 
+$baseline: 1.5;
+
 @mixin paragraph() {
   padding:0;
-  padding-bottom:1.5em;
   margin:0;
+  padding-bottom: $baseline * 1rem;
 }
 
 body {
 	font-family: OpenSans, sans-serif;
 	text-align: left;
 	font-size: 4mm;
-	line-height: 1.5em; 
+	line-height: $baseline * 1rem;
 	color: #444;
 	font-weight: 400;
 }
@@ -47,7 +49,7 @@ ul {
     padding-bottom:0;
   }
   li {
-    margin-left:1.5em;
+    margin-left: $baseline * 1rem;
   }
 }
 
@@ -57,7 +59,7 @@ ol {
     padding-bottom:0;
   }
   li {
-    margin-left:1.5em;
+    margin-left: $baseline * 1rem;
   }
 }
 
